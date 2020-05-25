@@ -55,9 +55,11 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(29, 62);
+            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(156, 20);
+            this.textBox1.Size = new System.Drawing.Size(156, 51);
             this.textBox1.TabIndex = 2;
+            this.textBox1.Text = "First Solution v0.0.1\r\nCreated May 2020\r\nAuthor Neil Murby";
             // 
             // frmAbout
             // 
