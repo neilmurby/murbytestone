@@ -10,22 +10,16 @@ using System.Windows.Forms;
 
 namespace BasicApp
 {
-    public partial class Form1 : Form
+    public partial class frmAbout : Form
     {
-        public Form1()
+        public frmAbout()
         {
             InitializeComponent();
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
+        private void btnClose_Click(object sender, EventArgs e)
         {
-            Close();
-        }
-
-        private void btnAbout_Click(object sender, EventArgs e)
-        {
-            frmAbout frm = new frmAbout();
-            frm.ShowDialog();
+            this.Close();
         }
     }
 }
